@@ -1,9 +1,9 @@
 /* Here is your custom css styles. */
 @font-face{
-    font-family: 'IBMPlexMono-Italic';
-    src: url('../diy-font/hyshanyaokaishu.ttf');   
+    font-family: 'SourceHanSansCN-Light-2';
+    src: url('../diy-font/SourceHanSansCN-Light-2.otf');   
 }
 
 body {
-    font-family: 'IBMPlexMono-Italic';
+    font-family: 'SourceHanSansCN-Light-2';
 }

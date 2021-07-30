@@ -12,6 +12,26 @@
         width: 90%;
     }
 }
+/*直达评论按钮样式*/
+.comment-scroll {
+    position: fixed;
+    right: 15px;
+    bottom: 135px;
+    padding-top: 15px;
+    margin-bottom: 0;
+    z-index: 998;
+}
+
+.comment-scroll .btn-floating {
+    background: linear-gradient(to bottom right, #FF9999 0%, #ff6666 100%);
+    width: 48px;
+    height: 48px;
+}
+
+.comment-scroll .btn-floating i {
+    line-height: 48px;
+    font-size: 1.8rem;
+}
 
 /*大屏幕下(桌面类)的样式*/
 @media only screen and (min-width: 993px) {
@@ -34,8 +54,8 @@
 }
 
 body {
-    background-color: #eaeaea;
-    margin: 0;
+    background: linear-gradient(60deg, rgba(255, 165, 150, 0.5) 5%, rgba(0, 228, 255, 0.35)) 0% 0% / cover, url("https://static01.imgkr.com/temp/1f6accb20b5a4a968faa76d673f1ab3a.png"), url("https://static01.imgkr.com/temp/bfcb996d24bb4324b7973ffa3a6629d7.png") 0px 0px;
+    background-attachment: fixed;
     color: #34495e;
     overflow-x: hidden;
     overflow-y: auto;
@@ -119,16 +139,31 @@ pre {
     -webkit-box-shadow: 20px 0 #ffbd2e, 40px 0 #27c93f;
     box-shadow: 20px 0 #ffbd2e, 40px 0 #27c93f;
 }
+/* 滚动条 */
+::-webkit-scrollbar-thumb {
+    background-color: #C3F9FF;
+    background-image: -webkit-linear-gradient(45deg,rgba(255,255,255,.4) 25%,transparent 25%,transparent 50%,rgba(255,255,255,.4) 50%,rgba(255,255,255,.4) 75%,transparent 75%,transparent);
+    border-radius: 3em;
+}
+::-webkit-scrollbar-track {
+    background-color: #2FFFE9;
+    border-radius: 3em;
+}
+::-webkit-scrollbar {
+    width: 8px;
+    height: 12px;
+}
+
 /* 切换按钮 */
 #dark
-  cursor pointer
-  position fixed
-  right 20px
-  bottom 98px
-  width 16px
-  height 14px
-  z-index 100
-  font-size 20px
+	  cursor pointer
+	  position fixed
+	  right 20px
+	  bottom 98px
+	  width 16px
+	  height 14px
+	  z-index 100
+	  font-size 20px
 
 /*暗黑模式*/
 .dark
@@ -672,7 +707,7 @@ header .go-back i {
     display: block;
     left: 0;
     top: 0;
-    content: "";
+    /* content: ""; */
 }
 
 .bg-cover .container {
