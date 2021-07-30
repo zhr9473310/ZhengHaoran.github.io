@@ -1,1 +1,9 @@
 /* Here is your custom css styles. */
+@font-face{
+    font-family: 'IBMPlexMono-Italic';
+    src: url('../diy-font/hyshanyaokaishu.ttf');   
+}
+
+body {
+    font-family: 'IBMPlexMono-Italic';
+}
