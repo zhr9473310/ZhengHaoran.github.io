@@ -7,3 +7,49 @@
 body {
     font-family: 'SourceHanSansCN-Light-2';
 }
+/* 文章顶部hr 剪刀*/
+hr {
+    position: relative;
+    margin: 2rem auto;
+    width: calc(100% - 4px);
+    border: 2px dashed #a4d8fa;
+    background: #fff;
+}
+
+hr {
+    box-sizing: content-box;
+    height: 0;
+    overflow: visible;
+}
+
+hr:before {
+    position: absolute;
+    top: -10px;
+    left: 5%;
+    z-index: 1;
+    color: #AAC7F1;
+    content: "🀄";
+    font: normal normal normal 14px/1 FontAwesome;
+    font-size: 30px;
+    -webkit-transition: all 1s ease-in-out;
+    -moz-transition: all 1s ease-in-out;
+    -o-transition: all 1s ease-in-out;
+    -ms-transition: all 1s ease-in-out;
+    transition: all 1s ease-in-out;
+}
+hr:hover::before{
+    left: 95%;
+}
+/* 修改首页轮播的标题大小 */
+@media only screen and (max-width: 601px) {
+    .bg-cover .title {
+        font-size: 2.5rem;
+    }
+}
+
+/* 修改博客标题的字体大小 */
+@media only screen and (max-width: 601px) {
+    header .brand-logo .logo-span {
+        font-size: 1rem;
+    }
+}
