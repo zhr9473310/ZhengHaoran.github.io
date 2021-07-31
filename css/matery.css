@@ -554,7 +554,7 @@ header .brand-logo .logo-img {
 }
 
 header .brand-logo .logo-span {
-    font-size: 1.6rem;
+    font-size: 1.1rem;
 }
 
 /*修改顶部 logo 的文字垂直对齐为 top，避免默认 middle 看起来偏下*/
@@ -827,7 +827,7 @@ header .go-back i {
 
 .bg-cover .container {
     position: relative;
-    color: #fff;
+    color: #DADADA;
     z-index: 2;
 }
 
@@ -840,9 +840,9 @@ header .go-back i {
 
 .bg-cover .description {
     font-weight: 300;
-    font-size: 1.25rem;
-    line-height: 1.4em;
-    color: #eee;
+    font-size: 1.6rem;
+    line-height: 1.3em;
+    color: #DADADA;
 }
 
 .bg-cover .post-title {
