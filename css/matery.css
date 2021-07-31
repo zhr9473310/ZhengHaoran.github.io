@@ -563,7 +563,7 @@ header .brand-logo .waves-effect {
 }
 
 header .button-collapse i {
-    font-size: 1.5rem;
+    font-size: 2.0rem;
 }
 
 header .side-nav .mobile-head {
@@ -827,7 +827,7 @@ header .go-back i {
 
 .bg-cover .container {
     position: relative;
-    color: #DADADA;
+    color: #BDB9FF;
     z-index: 2;
 }
 
