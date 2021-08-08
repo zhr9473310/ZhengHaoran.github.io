@@ -89,7 +89,7 @@
       <link href="/posts/5da4.html"/>
       <url>/posts/5da4.html</url>
       
-        <content type="html"><![CDATA[<h1 id="《和迪哥的康定行》"><a href="#《和迪哥的康定行》" class="headerlink" title="《和迪哥的康定行》"></a>《和迪哥的康定行》</h1><iframe width="350" height="200" src="http://go.plvideo.cn/front/video/preview?vid=150afb739f5122f9d5c077ee029eb32c_1" frameborder="0" allowfullscreen=""></iframe><h1 id="《金花组自驾游》"><a href="#《金花组自驾游》" class="headerlink" title="《金花组自驾游》"></a>《金花组自驾游》</h1><iframe width="350" height="200" src="http://go.plvideo.cn/front/video/preview?vid=150afb739fc3ecabec29325aaa67e42d_1" frameborder="0" allowfullscreen=""></iframe>]]></content>
+        <content type="html"><![CDATA[<h1 id="《和迪哥的康定行》"><a href="#《和迪哥的康定行》" class="headerlink" title="《和迪哥的康定行》"></a>《和迪哥的康定行》</h1><iframe width="350" height="200" src="http://go.plvideo.cn/front/video/preview?vid=150afb739f5122f9d5c077ee029eb32c_1" frameborder="0" allowfullscreen=""></iframe><h1 id="《金花组成都周边自驾》"><a href="#《金花组成都周边自驾》" class="headerlink" title="《金花组成都周边自驾》"></a>《金花组成都周边自驾》</h1><iframe width="350" height="200" src="http://go.plvideo.cn/front/video/preview?vid=150afb739fc3ecabec29325aaa67e42d_1" frameborder="0" allowfullscreen=""></iframe><h1 id="《青海-世界上有一种鸟是没有脚的》"><a href="#《青海-世界上有一种鸟是没有脚的》" class="headerlink" title="《青海-世界上有一种鸟是没有脚的》"></a>《青海-世界上有一种鸟是没有脚的》</h1><iframe width="350" height="200" src="http://player.bilibili.com/player.html?aid=462139058&amp;bvid=BV1wL411H74N&amp;cid=384309869&amp;page=1" frameborder="0" allowfullscreen=""></iframe>]]></content>
       
       
       <categories>
@@ -197,7 +197,7 @@
       <link href="/posts/833a.html"/>
       <url>/posts/833a.html</url>
       
-        <content type="html"><![CDATA[<p>这个项目基于三层计算模型基于三种任务调度方式进行了验证及分析，第一种方式把任务全部卸载到边缘服务器；第二种方式把任务全部卸载到云服务器；第三种方式把任务的一部分卸载边缘服务器剩下的部分卸载到云服务器。主要研究内容如下<br>（1）选用人脸识别作为测试程序，将本地计算机模拟为边缘端，在本地计算机中建立边缘计算模型运行程序，得到时延数据。<br>（2）将阿里云轻量应用服务器作为云端，在云端建立云计算模型运行测试程序，记录时延数据（包括传输时延和运行时延）。<br>（3）探究边云协作的任务卸载模型。将计算时延作为优化指标用计算卸载的方法让程序运行花费更短的时间。<br>结合以上三种计算任务卸载模型，实现了相应的场景实验。开发出包括实验模式选择、实时进行实验、实时实验结果显示、实验数据可视化等功能的应用软件。通过对实验结果和实验得到的时延数据分析可以得到通过任务卸载的边云协作计算方式能得到更短的时延的结果。</p><p>运行效果</p><p><img src="http://m.qpic.cn/psc?/V10ZLO8l29zbw1/TmEUgtj9EK6.7V8ajmQrEEA.NwTXY8d0nnHkrHGfitKYnOLi6XsBzN9YrG4i3UMSgU3575*eX*54aaCBSW*PxuNVgsy5dbaGmbdBWIPtfMs!/b&amp;bo=ngPPAgAAAAADJ1I!&amp;rf=viewer_4"></p><p>数据分析</p><p><img src="http://m.qpic.cn/psc?/V10ZLO8l29zbw1/TmEUgtj9EK6.7V8ajmQrEGogGYKddwrHi54BgdchdDs9U5l3gknxJ7bXeXaR0g3p9gezRjmJ7QHgqd4kVut3lMPnmGCbXiZ8znpWRAv5PFU!/b&amp;bo=bQPXAQAAAAADF4o!&amp;rf=viewer_4"></p><p>源码放github了：</p>]]></content>
+        <content type="html"><![CDATA[<p>这个项目基于三层计算模型基于三种任务调度方式进行了验证及分析，第一种方式把任务全部卸载到边缘服务器；第二种方式把任务全部卸载到云服务器；第三种方式把任务的一部分卸载边缘服务器剩下的部分卸载到云服务器。主要内容如下：<br>（1）选用人脸识别作为测试程序，将本地计算机模拟为边缘端，在本地计算机中建立边缘计算模型运行程序，得到时延数据。<br>（2）将阿里云轻量应用服务器作为云端，在云端建立云计算模型运行测试程序，记录时延数据（包括传输时延和运行时延）。<br>（3）探究边云协作的任务卸载模型。将计算时延作为优化指标用计算卸载的方法让程序运行花费更短的时间。</p><p>运行效果</p><p><img src="http://m.qpic.cn/psc?/V10ZLO8l29zbw1/TmEUgtj9EK6.7V8ajmQrEEA.NwTXY8d0nnHkrHGfitKYnOLi6XsBzN9YrG4i3UMSgU3575*eX*54aaCBSW*PxuNVgsy5dbaGmbdBWIPtfMs!/b&amp;bo=ngPPAgAAAAADJ1I!&amp;rf=viewer_4"></p><p>数据分析</p><p><img src="http://m.qpic.cn/psc?/V10ZLO8l29zbw1/TmEUgtj9EK6.7V8ajmQrEGogGYKddwrHi54BgdchdDs9U5l3gknxJ7bXeXaR0g3p9gezRjmJ7QHgqd4kVut3lMPnmGCbXiZ8znpWRAv5PFU!/b&amp;bo=bQPXAQAAAAADF4o!&amp;rf=viewer_4"></p><p>源码放github了：</p>]]></content>
       
       
       <categories>
